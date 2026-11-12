@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="100%" height="100%">
+  <defs>
+    <!-- Import Google Font: Teko & Montserrat for sharp athletic branding -->
+    <style>
+      1,900&family=Teko:wght@700&display=swap');
+    </style>
+
+    <!-- Vibrant Yellow-to-Amber Metallic Gradient -->
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF04D" />
+      <stop offset="55%" stop-color="#FFD000" />
+      <stop offset="100%" stop-color="#FF9900" />
+    </linearGradient>
+
+    <!-- Sleek Silver/Chrome Wing Gradient -->
+    <linearGradient id="wingSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <!-- Gold Accent Feather Layer -->
+    <linearGradient id="wingGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD000" />
+      <stop offset="100%" stop-color="#FF9500" />
+    </linearGradient>
+
+    <!-- Matte Carbon Kettlebell Body -->
+    <radialGradient id="kbSphere" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#64748B" />
+      <stop offset="40%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#090D16" />
+    </radialGradient>
+
+    <!-- Kettlebell Handle Gradient -->
+    <linearGradient id="kbHandle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <!-- Crimson Red Badge -->
+    <linearGradient id="crimsonBadge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B30" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+
+    <!-- Subtle Glow / Drop Shadow -->
+    <filter id="catchyShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.55" />
+    </filter>
+  </defs>
+
+  <!-- ==================== MODERN WINGED KETTLEBELL EMBLEM ==================== -->
+  <g id="emblem" transform="translate(165, 168)" filter="url(#catchyShadow)">
+    
+    <!-- Energy Aura Ring Behind Emblem -->
+    <circle cx="0" cy="4" r="56" fill="none" stroke="url(#goldText)" stroke-width="2" stroke-dasharray="14 8" opacity="0.45" />
+
+    <!-- LEFT WING (Sharp, Dynamic Blades) -->
+    <g id="wing-left">
+      <!-- Gold Speed Accent Under-wing -->
+      <path d="M -25,-28 L -142,-74 L -116,-44 L -132,-38 L -102,-14 L -116,-8 L -84,12 L -30,22 Z" fill="url(#wingGold)" opacity="0.9" />
+      <!-- Main Sharp Chrome Wing -->
+      <path d="M -24,-24 L -134,-66 L -108,-38 L -82,-30 L -122,-32 L -94,-10 L -70,-6 L -106,-4 L -78,12 L -56,14 L -86,20 L -54,30 L -26,26 Z" fill="url(#wingSilver)" stroke="#0F172A" stroke-width="2.5" stroke-linejoin="round" />
+      <!-- Clean Aero Cutout Lines -->
+      <path d="M -34,-18 L -102,-42 M -34,-6 L -88,-16 M -34,6 L -72,4" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- RIGHT WING (Mirrored) -->
+    <g id="wing-right" transform="scale(-1, 1)">
+      <path d="M -25,-28 L -142,-74 L -116,-44 L -132,-38 L -102,-14 L -116,-8 L -84,12 L -30,22 Z" fill="url(#wingGold)" opacity="0.9" />
+      <path d="M -24,-24 L -134,-66 L -108,-38 L -82,-30 L -122,-32 L -94,-10 L -70,-6 L -106,-4 L -78,12 L -56,14 L -86,20 L -54,30 L -26,26 Z" fill="url(#wingSilver)" stroke="#0F172A" stroke-width="2.5" stroke-linejoin="round" />
+      <path d="M -34,-18 L -102,-42 M -34,-6 L -88,-16 M -34,6 L -72,4" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- KETTLEBELL -->
+    <g id="kettlebell">
+      <!-- Angled Athletic Handle -->
+      <path d="M -25,-14 L -29,-46 C -29,-66 29,-66 29,-46 L 25,-14 L 14,-14 L 17,-44 C 17,-54 -17,-54 -17,-44 L -14,-14 Z" fill="url(#kbHandle)" stroke="#0F172A" stroke-width="2.5" stroke-linejoin="round" />
+      
+      <!-- Kettlebell Sphere -->
+      <circle cx="0" cy="18" r="38" fill="url(#kbSphere)" stroke="#0F172A" stroke-width="3" />
+      
+      <!-- Specular Rim Gloss -->
+      <path d="M -25,-7 A 34,34 0 0,1 25,-7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.45" />
+      
+      <!-- Modern Center Accent Emblem on Kettlebell -->
+      <polygon points="0,4 12,18 0,32 -12,18" fill="none" stroke="url(#goldText)" stroke-width="2" opacity="0.8" />
+
+      <!-- Sleek "GYM" Pill Badge -->
+      <rect x="-21" y="-47" width="42" height="19" rx="9.5" fill="url(#crimsonBadge)" stroke="#FFFFFF" stroke-width="1.8" />
+      <text x="0" y="-33.5" font-family="&#39;Montserrat&#39;, &#39;Arial Black&#39;, sans-serif" font-weight="900" font-style="italic" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">GYM</text>
+    </g>
+  </g>
+
+  <!-- ==================== MODERN ATHLETIC TYPOGRAPHY ==================== -->
+  <g id="typography" filter="url(#catchyShadow)">
+    
+    <!-- Top Dynamic Speed Slash -->
+    <polygon points="335,74 825,74 817,80 327,80" fill="url(#goldText)" />
+
+    <!-- Main Brand Name: FIT CITY (White/Silver) + GYM (Vibrant Gold) -->
+    <text x="330" y="168" font-family="&#39;Montserrat&#39;, &#39;Impact&#39;, &#39;Arial Black&#39;, sans-serif" font-weight="900" font-style="italic" font-size="74" letter-spacing="-1">
+      <tspan fill="#FFFFFF">FIT CITY </tspan>
+      <tspan fill="url(#goldText)">GYM</tspan>
+    </text>
+
+    <!-- Bottom Accent Bar + Skewed "UNISEX" Pill Tag -->
+    <g transform="translate(0, 4)">
+      <!-- Left Connecting Accent Line -->
+      <polygon points="325,193 645,193 640,198 320,198" fill="#FFFFFF" opacity="0.35" />
+      
+      <!-- Skewed Modern Badge for UNISEX -->
+      <g transform="translate(658, 180) skewX(-14)">
+        <rect x="0" y="0" width="154" height="32" rx="4" fill="url(#goldText)" />
+        <text x="77" y="23" font-family="&#39;Montserrat&#39;, &#39;Arial Black&#39;, sans-serif" font-weight="900" font-size="19" fill="#0F172A" text-anchor="middle" letter-spacing="4">UNISEX</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

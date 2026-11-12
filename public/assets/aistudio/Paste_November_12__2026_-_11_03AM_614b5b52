@@ -1,0 +1,653 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>FIT CITY GYM | Premium 3-Floor Fitness Hub Bengaluru</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Plus Jakarta Sans & Bebas Neue for Athletic Edge -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Bebas Neue"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              lime: '#ccff00',
+              limeDark: '#b2e600',
+              limeGlow: 'rgba(204, 255, 0, 0.25)',
+              dark: '#0a0c10',
+              card: '#12151c',
+              border: '#1f242e',
+              muted: '#8e96a4'
+            }
+          },
+          boxShadow: {
+            'neon': '0 0 25px -4px rgba(204, 255, 0, 0.4)',
+            'neon-sm': '0 0 12px -2px rgba(204, 255, 0, 0.35)',
+            'card-dark': '0 12px 30px -10px rgba(0, 0, 0, 0.7)'
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom CSS for specialized glow effects and outlined text -->
+<style data-purpose="typography-and-effects">
+    .text-stroke-title {
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.45);
+      color: transparent;
+    }
+    .neon-border-pulse {
+      box-shadow: 0 0 0 1px rgba(204, 255, 0, 0.3), 0 0 20px 2px rgba(204, 255, 0, 0.15);
+    }
+    .glass-dark {
+      background: rgba(18, 21, 28, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+  </style>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-lime selection:text-black">
+<!-- BEGIN: SiteHeader -->
+<header class="sticky top-0 z-50 glass-dark border-b border-brand-border transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a aria-label="FIT CITY GYM Homepage" class="flex items-center gap-3 group focus:outline-none" href="#"><div class="h-12 w-auto flex items-center transition-transform group-hover:scale-105">
+  <div class="h-12 w-[160px] sm:w-[190px] flex items-center">
+    {{DATA:DOCUMENT:DOCUMENT_1}}
+  </div>
+</div></a>
+<!-- Navigation Links (Desktop) -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-8 text-sm font-semibold tracking-wide">
+<a class="text-brand-lime transition-colors" href="#hero">Home</a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#vibe">The Vibe</a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#floors">3-Floor Tour</a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#amenities">Amenities</a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#reviews">Reviews</a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#location">Location</a>
+</nav>
+<!-- Contact Info Chip & Action Button -->
+<div class="flex items-center gap-4">
+<a class="hidden sm:flex items-center gap-2 text-xs font-bold bg-brand-card/90 border border-brand-border px-3.5 py-2 rounded-full hover:border-brand-lime/50 transition-all text-slate-200" href="tel:09535056130">
+<span class="text-brand-lime">📞</span>
+<span>095350 56130</span>
+</a>
+<a class="px-5 py-2.5 bg-brand-lime text-black font-extrabold text-xs uppercase tracking-wider rounded-lg hover:bg-white hover:shadow-neon transition-all duration-300 transform active:scale-95 btn-gold-gradient" href="#trial-enquiry">
+          Join Us Today
+        </a>
+</div>
+</div>
+</header>
+<!-- END: SiteHeader -->
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden bg-brand-dark" id="hero">
+<!-- Atmospheric Ambient Glows -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-brand-lime/10 blur-[140px] pointer-events-none rounded-full"></div>
+<div class="absolute -top-32 right-0 w-[400px] h-[400px] bg-cyan-500/10 blur-[130px] pointer-events-none rounded-full"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Top Meta Badges -->
+<div class="flex flex-wrap items-center gap-3 mb-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-card border border-brand-lime/30 text-brand-lime text-xs font-bold tracking-wide">
+<span class="text-amber-400">★ 4.9 / 5</span>
+<span class="text-brand-border">|</span>
+<span class="text-slate-300">946+ Google Reviews</span>
+</div>
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full crimson-badge border border-red-400/40 text-white text-xs font-bold tracking-wide shadow-sm">
+  <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+  Open Today · Closes 10:00 PM
+</div>
+</div>
+<!-- Hero Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+<!-- Left Column: High-Impact Typography & CTAs -->
+<div class="lg:col-span-7 flex flex-col justify-center">
+<div class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-brand-lime font-extrabold mb-3">
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2l2.5 5 5.5.8-4 3.9 1 5.5-5-2.6-5 2.6 1-5.5-4-3.9 5.5-.8z"></path></svg>
+            Bengaluru's Premier Strength &amp; Conditioning Hub
+          </div>
+<h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.05] uppercase font-display mb-4">
+<span class="block">Transform Your Body,</span>
+<span class="block text-stroke-title hover:text-white transition-all duration-300">Elevate Your Life!</span>
+</h1>
+<p class="text-lg sm:text-xl text-slate-300 max-w-xl font-normal leading-relaxed mb-8">
+            Experience workouts across <strong class="text-white font-semibold">3 massive floors of dedicated fitness</strong>. Cardio arena, heavy strength zone, and functional turf—clean, spacious, and built with zero wait times.
+          </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-10">
+<a class="flex items-center justify-center gap-3 px-8 py-4 bg-brand-lime hover:bg-white text-black font-extrabold uppercase text-sm tracking-wider rounded-xl shadow-neon transition-all duration-300 group btn-gold-gradient" href="#trial-enquiry">
+<span>Claim Your Free Day Pass</span>
+<svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</a>
+<a class="flex items-center justify-center gap-2 px-7 py-4 bg-brand-card hover:bg-brand-card/70 border border-brand-border text-slate-200 font-bold uppercase text-sm tracking-wider rounded-xl transition-all" href="#location">
+<span>View Location &amp; Hours</span>
+</a>
+</div>
+<!-- Highlight Micro-Stats -->
+<div class="grid grid-cols-3 gap-4 pt-6 border-t border-brand-border/80">
+<div data-purpose="stat-item">
+<span class="block text-2xl lg:text-3xl font-extrabold text-white font-display">3 FLOORS</span>
+<span class="text-xs text-brand-muted uppercase tracking-wider">Dedicated Zones</span>
+</div>
+<div data-purpose="stat-item">
+<span class="block text-2xl lg:text-3xl font-extrabold text-brand-lime font-display">946+</span>
+<span class="text-xs text-brand-muted uppercase tracking-wider">Happy Athletes</span>
+</div>
+<div data-purpose="stat-item">
+<span class="block text-2xl lg:text-3xl font-extrabold text-white font-display">100%</span>
+<span class="text-xs text-brand-muted uppercase tracking-wider">AC &amp; Hygienic</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Hero Showcase with Floating Working Hours Card -->
+<div class="lg:col-span-5 relative">
+<!-- Main Hero Image Frame -->
+<div class="relative rounded-3xl overflow-hidden border border-brand-border bg-brand-card shadow-2xl">
+<img alt="FIT CITY GYM athletic training facility interior" class="w-full h-[520px] object-cover object-center contrast-110 filter brightness-90 hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOM6Nvxs2KelvSbiNxcm7J-VCIV6xwkVW-LKBuQxFlhTtrpannw1aISVzpNecOQyaGNQjiLmsU6FGr6hhDLP_JXW2gTGdgwBmsPHSoCi9nv81ZLOwjoIywzH5hw0ZOhDhvENpIkk9V5IfqSL3lWJP-mRV4p7KrVQe8AnqHo2Egz7DbQGC-AnWP4zJViGkfpE-cDZc2fLPffXOMHsp2c5TFsj32S839MZZozEIO3MQ">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-black/20"></div>
+<!-- Certified Coach Accent Chip -->
+<div class="absolute top-4 left-4 glass-dark border border-brand-border/60 rounded-xl p-3 flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-brand-lime/10 border border-brand-lime/30 flex items-center justify-center text-brand-lime">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<p class="text-[11px] uppercase tracking-wider text-brand-muted font-bold">Elite Training</p>
+<p class="text-xs font-bold text-white">Certified Personal Mentors</p>
+</div>
+</div>
+<!-- FLOATING WORKING HOURS CARD (Direct Reference Match) -->
+<div class="absolute bottom-5 right-5 left-5 sm:left-auto sm:w-80 bg-white text-slate-900 rounded-2xl p-5 shadow-2xl border border-white/20" data-purpose="floating-info-card">
+<div class="flex items-center justify-between pb-3 border-b border-slate-100">
+<h4 class="font-extrabold text-sm uppercase tracking-wider text-slate-900 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-brand-limeDark"></span>
+                  Working hours:
+                </h4>
+<span class="text-[10px] font-bold bg-slate-100 px-2 py-0.5 rounded text-slate-600">Bengaluru</span>
+</div>
+<div class="py-3 text-xs space-y-2 font-medium text-slate-700">
+<div class="flex justify-between items-center">
+<span class="font-semibold text-slate-900">Monday – Saturday:</span>
+<span class="text-slate-600 font-mono">05:40 – 22:00</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-semibold text-slate-900">Sunday (Split):</span>
+<span class="text-slate-600 font-mono">07:00 – 11:00</span>
+</div>
+<div class="flex justify-end text-[11px] text-slate-500 font-mono -mt-1">
+<span>&amp; 17:00 – 20:30</span>
+</div>
+</div>
+<a class="block w-full text-center py-2.5 bg-brand-lime hover:bg-black hover:text-white text-black font-extrabold uppercase text-xs tracking-wider rounded-lg transition-colors btn-gold-gradient" href="#trial-enquiry">
+                Book Free Trial
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: AboutTheVibeSection -->
+<section class="py-20 bg-brand-card border-y border-brand-border" id="vibe">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-3xl mb-14">
+<span class="text-xs uppercase tracking-widest text-brand-lime font-extrabold block mb-2">Our Philosophy &amp; Vibe</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-display uppercase">
+          Advanced training methods, <br class="hidden sm:inline">&amp; a welcoming environment.
+        </h2>
+<p class="mt-4 text-base sm:text-lg text-slate-300">
+          No waiting 15 minutes for a squat rack or bench. FIT CITY GYM is engineered across three dedicated levels to give you room to breathe, lift heavy, and focus entirely on your physical progression.
+        </p>
+</div>
+<!-- 3 Key Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-8 rounded-2xl bg-brand-dark border border-brand-border hover:border-brand-lime/40 transition-all group">
+<div class="w-14 h-14 rounded-xl bg-brand-card border border-brand-border flex items-center justify-center text-brand-lime mb-6 group-hover:bg-brand-lime group-hover:text-black transition-colors">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Spacious &amp; Never Crowded</h3>
+<p class="text-sm text-slate-400 leading-relaxed">
+            By separating cardio, heavy resistance, and functional floor work onto three individual floors, we guarantee seamless transitions between workout sets.
+          </p>
+</div>
+<div class="p-8 rounded-2xl bg-brand-dark border border-brand-border hover:border-brand-lime/40 transition-all group">
+<div class="w-14 h-14 rounded-xl bg-brand-card border border-brand-border flex items-center justify-center text-brand-lime mb-6 group-hover:bg-brand-lime group-hover:text-black transition-colors">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Pristine Hygiene Standard</h3>
+<p class="text-sm text-slate-400 leading-relaxed">
+            Continuous sanitization routines, spotless locker rooms, powerful ventilation, and crisp air conditioning keep you invigorated through high-intensity reps.
+          </p>
+</div>
+<div class="p-8 rounded-2xl bg-brand-dark border border-brand-border hover:border-brand-lime/40 transition-all group">
+<div class="w-14 h-14 rounded-xl bg-brand-card border border-brand-border flex items-center justify-center text-brand-lime mb-6 group-hover:bg-brand-lime group-hover:text-black transition-colors">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Supportive Community Culture</h3>
+<p class="text-sm text-slate-400 leading-relaxed">
+            From absolute first-timers to competitive powerlifters, our coaching squad and member circle celebrate hard work, consistency, and positive encouragement.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AboutTheVibeSection -->
+<!-- BEGIN: ThreeFloorTourSection -->
+<section class="py-24 bg-brand-dark relative" id="floors">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-xs uppercase tracking-widest text-brand-lime font-extrabold">Virtual Facility Walkthrough</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white font-display tracking-tight uppercase mt-1">
+          Explore The 3 Massive Floors
+        </h2>
+<p class="text-slate-400 text-sm sm:text-base mt-3">
+          Thoughtfully arranged to maximize your workout efficiency and eliminate bottlenecks.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Floor 1 Card -->
+<div class="bg-brand-card rounded-2xl overflow-hidden border border-brand-border hover:border-brand-lime transition-all duration-300 flex flex-col">
+<div class="relative h-56 overflow-hidden">
+<img alt="Floor 1 Heavy Strength &amp; Free Weight Section" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYg1aDZwsYKuzzGS-IFogzeKLzmtzsk2nYjVkVpjWDaR1muOB6uKReQNaiWHi1kinZi4JWtJMWwXGYewCZH895pWlkuzSjIGK6IRNqHwt5oAluU9xLsXlTn6Jw72isyv1c0P2DDXzmo_xV5p_yNfcv_FjTnIYk_gBPH7zN4WgaJVrc06tbuI25rX7Z2yYb7m37pemoip17GQZmAygNKv_TCH_BHw8WPK7YCemhIr8">
+<span class="absolute top-4 left-4 bg-brand-dark/90 backdrop-blur px-3 py-1 rounded-md text-brand-lime text-xs font-black tracking-wider uppercase border border-brand-lime/30">
+              Floor 01
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="text-xl font-bold text-white mb-2">Heavy Strength &amp; Iron Zone</h3>
+<p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Fully equipped with Olympic squat racks, bench presses, dumbbells scaling up to heavy competitive weights, deadlift platforms, and cable crossovers.
+              </p>
+</div>
+<ul class="text-xs text-slate-300 space-y-2 border-t border-brand-border/60 pt-4">
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Multiple Squat &amp; Power Racks</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Heavy Duty Dumbbell Sets</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Shock-Absorbing Rubber Flooring</li>
+</ul>
+</div>
+</div>
+<!-- Floor 2 Card -->
+<div class="bg-brand-card rounded-2xl overflow-hidden border border-brand-border hover:border-brand-lime transition-all duration-300 flex flex-col">
+<div class="relative h-56 overflow-hidden">
+<img alt="Floor 2 Cardio &amp; Advanced Machines" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1bcLng3aeBI_CxxszX1GwP3-KpScOix8pbWZ2Cit7BAfZ5znIWNi9QHrxF1Bj52WNW9szqkfLJKJPMyYPJDknAshDjMhCo2WKu8Vpd-YpFeArGUmfd9gvfbCMMXDhUxgq6AdtW5Zn4dw-x1_jpxOHQD5SC5v3gE7omNmpnD3j5Yi87tg1FT1PM2n8v8RlvUjdWRfBU2GfwUNDC_zRj7irOHSmH92sb5RSc6ExIZ4">
+<span class="absolute top-4 left-4 bg-brand-dark/90 backdrop-blur px-3 py-1 rounded-md text-brand-lime text-xs font-black tracking-wider uppercase border border-brand-lime/30">
+              Floor 02
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="text-xl font-bold text-white mb-2">Cardio Suite &amp; Pin-Loaded Selectorized</h3>
+<p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Motorized commercial treadmills, cross-trainers, stair-masters, spin bikes, and isolated biomechanical machines designed to target every muscle safely.
+              </p>
+</div>
+<ul class="text-xs text-slate-300 space-y-2 border-t border-brand-border/60 pt-4">
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> High-End Treadmills &amp; Stair Climbers</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Biomechanical Muscle Isolation Machines</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Dedicated Warmup &amp; Mobility Corner</li>
+</ul>
+</div>
+</div>
+<!-- Floor 3 Card -->
+<div class="bg-brand-card rounded-2xl overflow-hidden border border-brand-border hover:border-brand-lime transition-all duration-300 flex flex-col">
+<div class="relative h-56 overflow-hidden">
+<img alt="Floor 3 Functional Turf &amp; Studio" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgtqJZIt7yMeHFfLZ-gG98v-zid5F7buSlULWjXuwKgBkDuqyMRxpQwP7h5R1Wt1Hc7658py4NOGF3QzU1o5QAWVByz8SWMTCmINAwI9Na-NhRqfd8d-kD-TgZoq-p5sw90c2HtaK64fzTB8l1XNE-gRqcVyGSAYzV1y4y7OEDAkkmNzlsZ5HqD3JDwGa6M-Dw2gKj_ocsOgDA7OvLQ0JQm1Ux9Hp-PUXOV2wP9m8">
+<span class="absolute top-4 left-4 bg-brand-dark/90 backdrop-blur px-3 py-1 rounded-md text-brand-lime text-xs font-black tracking-wider uppercase border border-brand-lime/30">
+              Floor 03
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="text-xl font-bold text-white mb-2">Functional Turf &amp; HIIT Studio</h3>
+<p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Sled turf track, battle ropes, kettlebells, plyometric boxes, suspension trainers, and space for group classes, core circuits, and athletic drills.
+              </p>
+</div>
+<ul class="text-xs text-slate-300 space-y-2 border-t border-brand-border/60 pt-4">
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Sled Push Turf &amp; Battle Ropes</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Group Conditioning Sessions</li>
+<li class="flex items-center gap-2"><span class="text-brand-lime">✓</span> Agility &amp; Core Training Zone</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ThreeFloorTourSection -->
+<!-- BEGIN: AmenitiesAndServicesSection -->
+<section class="py-20 bg-brand-card border-t border-brand-border" id="amenities">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5">
+<span class="text-xs uppercase tracking-widest text-brand-lime font-extrabold block mb-2">Expertise &amp; Offerings</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white font-display tracking-tight uppercase mb-6 leading-tight">
+            Everything You Need Under One Roof
+          </h2>
+<p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
+            Whether your milestone is dropping 15 kgs, crushing a 200 kg deadlift, or building endurance for daily vitality, FIT CITY GYM provides the coaching, equipment, and programs to get you there.
+          </p>
+<div class="p-6 rounded-2xl bg-brand-dark border border-brand-border space-y-4">
+<h4 class="font-bold text-sm uppercase tracking-wider text-white">Why Members Choose Us:</h4>
+<div class="flex items-center gap-3 text-xs text-slate-300">
+<span class="w-6 h-6 rounded-full bg-brand-lime/20 text-brand-lime flex items-center justify-center font-bold">✓</span>
+<span>Flexible Monthly, Quarterly &amp; Annual Membership tiers</span>
+</div>
+<div class="flex items-center gap-3 text-xs text-slate-300">
+<span class="w-6 h-6 rounded-full bg-brand-lime/20 text-brand-lime flex items-center justify-center font-bold">✓</span>
+<span>Credit cards, UPI, Google Pay &amp; contactless payments accepted</span>
+</div>
+<div class="flex items-center gap-3 text-xs text-slate-300">
+<span class="w-6 h-6 rounded-full bg-brand-lime/20 text-brand-lime flex items-center justify-center font-bold">✓</span>
+<span>Lockers, clean washrooms, and continuous sanitized touchpoints</span>
+</div>
+</div>
+</div>
+<!-- Service Feature List (Matches Reference Right Column) -->
+<div class="lg:col-span-7 space-y-4">
+<div class="p-5 rounded-2xl bg-brand-dark/90 border border-brand-border hover:border-brand-lime/50 transition-all flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-brand-card flex-shrink-0 flex items-center justify-center text-brand-lime">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29l-1.43-1.43z"></path></svg>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">Personal Training</h4>
+<p class="text-xs sm:text-sm text-slate-400">One-on-one coaching with certified trainers who tailor personalized workout plans, form correction, and body recomposition tracks.</p>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-brand-dark/90 border border-brand-border hover:border-brand-lime/50 transition-all flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-brand-card flex-shrink-0 flex items-center justify-center text-brand-lime">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">Dynamic Group Classes</h4>
+<p class="text-xs sm:text-sm text-slate-400">High-energy functional fitness, circuit training, and endurance bootcamps designed to push cardiovascular thresholds in team spirit.</p>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-brand-dark/90 border border-brand-border hover:border-brand-lime/50 transition-all flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-brand-card flex-shrink-0 flex items-center justify-center text-brand-lime">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">Nutrition &amp; Diet Consultations</h4>
+<p class="text-xs sm:text-sm text-slate-400">Sustainable calorie and macronutrient guides crafted by certified fitness specialists to complement your daily training intensity.</p>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-brand-dark/90 border border-brand-border hover:border-brand-lime/50 transition-all flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-brand-card flex-shrink-0 flex items-center justify-center text-brand-lime">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">Specialized Strength Conditioning</h4>
+<p class="text-xs sm:text-sm text-slate-400">Targeted programs for powerlifters, runners, and corporate professionals aiming to correct posture and alleviate sedentary aches.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AmenitiesAndServicesSection -->
+<!-- BEGIN: TestimonialsSection -->
+<section class="py-24 bg-brand-dark relative" id="reviews">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-lime font-extrabold mb-2">
+<span>★★★★★</span> Authentic Member Experiences
+        </div>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white font-display tracking-tight uppercase">
+          Thousands Have Changed Their Lives For The Better
+        </h2>
+<p class="text-slate-400 text-sm sm:text-base mt-3">
+          Over <strong class="text-white">946+ Google Reviews</strong> attest to the culture, cleanliness, and coaching standards at FIT CITY GYM.
+        </p>
+</div>
+<!-- Testimonial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-7 rounded-2xl bg-brand-card border border-brand-border flex flex-col justify-between hover:border-brand-lime/40 transition-all">
+<div>
+<div class="flex text-amber-400 text-sm mb-3">★★★★★</div>
+<p class="text-sm text-slate-300 italic mb-6 leading-relaxed">
+              "The best gym in Kaggadasapura by far! Having 3 full floors means you never have to stand around waiting for equipment even during peak evening hours. The coaches are super polite and always correct your posture."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-brand-border/60">
+<div class="w-10 h-10 rounded-full bg-slate-800 border border-brand-lime/40 flex items-center justify-center font-bold text-brand-lime text-xs">
+              RK
+            </div>
+<div>
+<p class="text-sm font-bold text-white">Rohit K.</p>
+<p class="text-xs text-brand-muted">Member · 14 Months</p>
+</div>
+</div>
+</div>
+<div class="p-7 rounded-2xl bg-brand-card border border-brand-border flex flex-col justify-between hover:border-brand-lime/40 transition-all">
+<div>
+<div class="flex text-amber-400 text-sm mb-3">★★★★★</div>
+<p class="text-sm text-slate-300 italic mb-6 leading-relaxed">
+              "Extremely hygienic and well-maintained. The third floor functional turf is fantastic for HIIT and agility. Personal training here helped me shed 12 kgs in 4 months without feeling burnt out."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-brand-border/60">
+<div class="w-10 h-10 rounded-full bg-slate-800 border border-brand-lime/40 flex items-center justify-center font-bold text-brand-lime text-xs">
+              SM
+            </div>
+<div>
+<p class="text-sm font-bold text-white">Shreya Menon</p>
+<p class="text-xs text-brand-muted">Member · 8 Months</p>
+</div>
+</div>
+</div>
+<div class="p-7 rounded-2xl bg-brand-card border border-brand-border flex flex-col justify-between hover:border-brand-lime/40 transition-all">
+<div>
+<div class="flex text-amber-400 text-sm mb-3">★★★★★</div>
+<p class="text-sm text-slate-300 italic mb-6 leading-relaxed">
+              "Great working hours starting early at 5:40 AM which fits right before my tech office hours. Top-notch plate loaded gear and heavy dumbbells for serious lifters. 5 stars easily."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-brand-border/60">
+<div class="w-10 h-10 rounded-full bg-slate-800 border border-brand-lime/40 flex items-center justify-center font-bold text-brand-lime text-xs">
+              AN
+            </div>
+<div>
+<p class="text-sm font-bold text-white">Arun Nambiar</p>
+<p class="text-xs text-brand-muted">Member · 2 Years</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TestimonialsSection -->
+<!-- BEGIN: LocationAndHoursSection -->
+<section class="py-20 bg-brand-card border-y border-brand-border" id="location">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Left: Operating Schedule & Address -->
+<div class="lg:col-span-6 space-y-6">
+<span class="text-xs uppercase tracking-widest text-brand-lime font-extrabold block">Visit Our Facility</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white font-display tracking-tight uppercase leading-none">
+            Prime Location in Kaggadasapura
+          </h2>
+<div class="p-6 rounded-2xl bg-brand-dark border border-brand-border space-y-4">
+<div class="flex items-start gap-3">
+<span class="text-brand-lime text-xl">📍</span>
+<div>
+<p class="text-xs font-bold uppercase text-brand-muted tracking-wider">Gym Address</p>
+<p class="text-sm sm:text-base text-white font-medium mt-0.5">
+                  32/33, BRINDAVAN, 8th Cross Rd, next to ANDHRA BANK, Kondappa Layout, C.V. Raman Nagar, Kaggadasapura, Bengaluru, Karnataka 560093
+                </p>
+</div>
+</div>
+<div class="flex items-start gap-3 pt-3 border-t border-brand-border/60">
+<span class="text-brand-lime text-xl">📞</span>
+<div>
+<p class="text-xs font-bold uppercase text-brand-muted tracking-wider">Direct Desk Phone</p>
+<a class="text-base text-brand-lime hover:underline font-bold btn-gold-gradient" href="tel:09535056130">
+                  095350 56130
+                </a>
+</div>
+</div>
+</div>
+<!-- Schedule Detailed Card -->
+<div class="p-6 rounded-2xl bg-brand-dark border border-brand-border">
+<h3 class="text-sm font-bold uppercase tracking-wider text-white mb-4 flex items-center justify-between">
+<span>Weekly Operating Hours</span>
+<span class="text-[10px] text-brand-lime font-mono">IST Standard Time</span>
+</h3>
+<div class="space-y-3 text-xs sm:text-sm">
+<div class="flex justify-between items-center py-1.5 border-b border-brand-border/40">
+<span class="text-slate-300 font-semibold">Monday – Saturday</span>
+<span class="font-mono text-white bg-brand-card px-3 py-1 rounded border border-brand-border">05:40 AM – 10:00 PM</span>
+</div>
+<div class="flex justify-between items-center py-1.5">
+<span class="text-slate-300 font-semibold">Sunday Morning Session</span>
+<span class="font-mono text-white bg-brand-card px-3 py-1 rounded border border-brand-border">07:00 AM – 11:00 AM</span>
+</div>
+<div class="flex justify-between items-center py-1.5">
+<span class="text-slate-300 font-semibold">Sunday Evening Session</span>
+<span class="font-mono text-white bg-brand-card px-3 py-1 rounded border border-brand-border">05:00 PM – 08:30 PM</span>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="px-6 py-3 bg-brand-card hover:border-brand-lime border border-brand-border text-xs font-bold uppercase tracking-wider text-white rounded-xl inline-flex items-center gap-2 transition-all" href="https://maps.google.com/?q=FIT+CITY+GYM+Kaggadasapura+Bengaluru" rel="noopener noreferrer" target="_blank">
+<span>Get Directions on Google Maps</span>
+<svg class="w-4 h-4 text-brand-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<a class="px-6 py-3 bg-brand-lime text-black text-xs font-extrabold uppercase tracking-wider rounded-xl hover:bg-white transition-all shadow-neon-sm inline-flex items-center gap-2 btn-gold-gradient" href="tel:09535056130">
+<span>Call 095350 56130</span>
+</a>
+</div>
+</div>
+<!-- Right: Interactive Visual Location Map Mockup -->
+<div class="lg:col-span-6 flex flex-col justify-center">
+<div class="rounded-3xl border border-brand-border bg-brand-dark p-2 overflow-hidden shadow-2xl relative">
+<div class="relative w-full h-[380px] rounded-2xl overflow-hidden bg-slate-900">
+<!-- Styled Map Illustration Placeholder -->
+<div class="absolute inset-0 bg-gradient-to-br from-brand-card via-slate-900 to-black opacity-95"></div>
+<!-- Stylized Grid Pattern for Map Feel -->
+<div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 1px 1px, #ccff00 1px, transparent 0); background-size: 28px 28px;"></div>
+<!-- Location Center Pin -->
+<div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center z-10">
+<div class="relative flex items-center justify-center mb-3">
+<div class="w-16 h-16 rounded-full bg-brand-lime/20 animate-ping absolute"></div>
+<div class="w-12 h-12 rounded-full bg-brand-lime text-black font-extrabold flex items-center justify-center shadow-neon">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path></svg>
+</div>
+</div>
+<h4 class="text-white font-extrabold text-lg uppercase tracking-wide">FIT CITY GYM</h4>
+<p class="text-xs text-brand-muted max-w-sm mt-1">C.V. Raman Nagar, Next to Andhra Bank, Kaggadasapura Main Rd</p>
+<span class="mt-4 px-3 py-1 bg-brand-lime/10 border border-brand-lime/40 text-brand-lime text-[11px] font-bold rounded-full">
+                  ★ Landmark: Brindavan Building · 3 Full Floors
+                </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: LocationAndHoursSection -->
+<!-- BEGIN: LeadCaptureSection -->
+<section class="py-24 bg-brand-dark relative overflow-hidden" id="trial-enquiry">
+<!-- Glow Backdrop -->
+<div class="absolute bottom-0 right-1/4 w-[500px] h-[300px] bg-brand-lime/10 blur-[130px] pointer-events-none rounded-full"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="bg-brand-card border-2 border-brand-border/90 hover:border-brand-lime/40 rounded-3xl p-8 sm:p-12 shadow-2xl transition-all">
+<div class="text-center max-w-xl mx-auto mb-10">
+<span class="text-xs uppercase tracking-widest text-brand-lime font-extrabold">Instant Access</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white font-display tracking-tight uppercase mt-1">
+            Claim Your 1-Day VIP Pass
+          </h2>
+<p class="text-slate-400 text-xs sm:text-sm mt-2">
+            Experience our 3 floors, test drive the equipment, and meet our coaching team with zero obligations.
+          </p>
+</div>
+<form class="space-y-6" id="enquiry-form" onsubmit="event.preventDefault(); alert('Thank you! Your VIP Day Pass request has been received. Our team will contact you shortly at FIT CITY GYM.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Full Name -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2" for="fullName">
+                Full Name *
+              </label>
+<input class="w-full bg-brand-dark border border-brand-border rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-lime focus:ring-1 focus:ring-brand-lime text-sm transition-all" id="fullName" placeholder="e.g. Rahul Sharma" required="" type="text">
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2" for="phoneNumber">
+                Phone Number (WhatsApp) *
+              </label>
+<input class="w-full bg-brand-dark border border-brand-border rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-lime focus:ring-1 focus:ring-brand-lime text-sm transition-all" id="phoneNumber" placeholder="e.g. 095350 56130" required="" type="tel">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Email Address -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2" for="email">
+                Email Address
+              </label>
+<input class="w-full bg-brand-dark border border-brand-border rounded-xl px-4 py-3.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand-lime focus:ring-1 focus:ring-brand-lime text-sm transition-all" id="email" placeholder="name@example.com" type="email">
+</div>
+<!-- Primary Fitness Goal -->
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2" for="fitnessGoal">
+                Primary Fitness Goal
+              </label>
+<select class="w-full bg-brand-dark border border-brand-border rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-lime focus:ring-1 focus:ring-brand-lime text-sm transition-all" id="fitnessGoal">
+<option value="muscle">Muscle Gain &amp; Hypertrophy</option>
+<option value="weightloss">Weight Loss &amp; Fat Burning</option>
+<option value="strength">Heavy Strength &amp; Powerlifting</option>
+<option value="endurance">General Fitness &amp; Stamina</option>
+<option value="personal-training">Personal Mentorship</option>
+</select>
+</div>
+</div>
+<!-- Quick Submission Button -->
+<div class="pt-4">
+<button class="w-full py-4 px-6 bg-brand-lime hover:bg-white text-black font-extrabold uppercase text-sm tracking-wider rounded-xl transition-all duration-300 shadow-neon hover:shadow-none transform active:scale-98 flex items-center justify-center gap-2 btn-gold-gradient" type="submit">
+<span>Submit Enquiry &amp; Claim VIP Trial</span>
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7l5 5m0 0l-5 5m5-5H6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</button>
+<p class="text-center text-[11px] text-slate-400 mt-3">
+              🔒 No spam guarantee. Free passes valid for first-time visitors in Bengaluru.
+            </p>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- END: LeadCaptureSection -->
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-black border-t border-brand-border py-12 text-slate-400 text-xs">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-brand-border/60">
+<div class="flex items-center gap-3"><div class="flex items-center gap-3">
+  <div class="h-12 w-[170px] sm:w-[200px] flex items-center">
+    {{DATA:DOCUMENT:DOCUMENT_1}}
+  </div>
+</div></div>
+<div class="flex flex-wrap items-center justify-center gap-6 text-slate-300 font-semibold">
+<a class="hover:text-brand-lime transition-colors" href="#hero">Home</a>
+<a class="hover:text-brand-lime transition-colors" href="#floors">3 Floors</a>
+<a class="hover:text-brand-lime transition-colors" href="#amenities">Services</a>
+<a class="hover:text-brand-lime transition-colors" href="#reviews">946+ Reviews</a>
+<a class="hover:text-brand-lime transition-colors" href="#location">Location</a>
+</div>
+<div class="text-slate-300">
+          Bengaluru, Karnataka
+        </div>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 text-[11px] text-slate-400">
+<p>© 2026 FIT CITY GYM. All rights reserved. 32/33, BRINDAVAN, Kaggadasapura, Bengaluru.</p>
+<p>Built for High-Performance Strength &amp; Fitness.</p>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+
+
+</body></html>

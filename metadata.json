@@ -1,0 +1,6 @@
+{
+  "name": "Fit City Gym - Premier 3-Floor Fitness Hub Bengaluru",
+  "description": "Official website for FIT CITY GYM in Kaggadasapura, Bengaluru. 3 massive dedicated floors for heavy strength, cardio, and functional turf training with authentic logo colors and aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
